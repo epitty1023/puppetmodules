@@ -1,0 +1,39 @@
+{
+  "name": "ko_cloudwatch",
+  "version": "1.0",
+  "author": "epitty1023",
+  "summary": "Configure AWS Cloudwatch Logs on Amazon Linux, Ubuntu, Red Hat & CentOS EC2 instances.",
+  "license": "Apache",
+  "source": "https://github.com/epitty1023/puppet-cloudwatch",
+  "project_page": "https://github.com/epitty1023/puppet-cloudwatch",
+  "issues_url": "https://github.com/epitty1023/puppet-cloudwatch/issues",
+  "tags": ["aws", "cloudwatch", "cloud", "watch", "logs", "amazon"],
+  "operatingsystem_support": [
+    {
+    "operatingsystem":"Amazon"
+    },
+    {
+    "operatingsystem":"Ubuntu"
+    },
+    {
+    "operatingsystem":"RedHat"
+    },
+    {
+    "operatingsystem":"CentOS"
+    }
+  ],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": "3.x"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": "3.x"
+    }
+  ],
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 3.2.0"},
+    {"name":"puppetlabs-concat","version_requirement":">= 1.1.0"}
+  ]
+}
